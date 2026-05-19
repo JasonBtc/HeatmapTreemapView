@@ -1,6 +1,6 @@
 # HeatmapTreemapView
 
-一个轻量级的 Android 自定义 View，基于 **squarified treemap**（近似正方形树状图）算法渲染一组带权重的彩色方块 —— 典型用途：仿币安/交易所的"加密货币热力图"。
+一个AI编写的 轻量级的 Android 自定义 View，基于 **squarified treemap**（近似正方形树状图）算法渲染一组带权重的彩色方块 —— 典型用途：仿币安/交易所的"加密货币热力图"。
 
 仓库结构：
 
