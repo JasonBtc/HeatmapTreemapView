@@ -14,6 +14,9 @@ phview/
 
 ---
 
+## 截图
+![如图](screenshot/screenshot.png)
+
 ## 一、引入
 
 当前以源码模块形式接入，在使用方工程的 `settings.gradle`：
