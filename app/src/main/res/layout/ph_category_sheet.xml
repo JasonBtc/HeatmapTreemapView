@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="类型"
+        android:textColor="@color/ph_text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cat_opt_usdt"
+            style="@style/PhScopeOption"
+            android:layout_marginEnd="6dp"
+            android:text="U本位" />
+
+        <TextView
+            android:id="@+id/cat_opt_coin"
+            style="@style/PhScopeOption"
+            android:layout_marginStart="6dp"
+            android:text="币本位" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cat_opt_defi"
+            style="@style/PhScopeOption"
+            android:layout_marginEnd="6dp"
+            android:text="DeFi" />
+
+        <TextView
+            android:id="@+id/cat_opt_infra"
+            style="@style/PhScopeOption"
+            android:layout_marginStart="6dp"
+            android:text="基础服务" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cat_opt_l1"
+            style="@style/PhScopeOption"
+            android:layout_marginEnd="6dp"
+            android:text="Layer 1" />
+
+        <TextView
+            android:id="@+id/cat_opt_l2"
+            style="@style/PhScopeOption"
+            android:layout_marginStart="6dp"
+            android:text="Layer 2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cat_opt_nft"
+            style="@style/PhScopeOption"
+            android:layout_marginEnd="6dp"
+            android:text="NFT" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp" />
+    </LinearLayout>
+</LinearLayout>

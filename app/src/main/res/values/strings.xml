@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">phview</string>
+    <string name="ph_title">热力图</string>
+    <string name="ph_filter_quote">U本位</string>
+    <string name="ph_filter_metric">交易量</string>
+    <string name="ph_filter_range">24小时表现</string>
+    <string name="ph_filter_scope">前50币种</string>
+    <string name="ph_back_desc">返回</string>
+    <string name="ph_share_desc">分享</string>
+</resources>

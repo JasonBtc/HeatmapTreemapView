@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="6dp">
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ph_popup_card_bg"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/popup_symbol"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/ph_text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/popup_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/ph_badge_bg"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp"
+                android:textColor="@color/ph_text_secondary"
+                android:textSize="11sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/popup_star"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ph_ic_star_outline" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/popup_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ph_text_primary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/popup_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/popup_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/ph_text_primary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/popup_trade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ph_btn_trade_bg"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="6dp"
+            android:text="交易"
+            android:textColor="@color/ph_text_primary"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/popup_arrow"
+        android:layout_width="16dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ph_popup_arrow" />
+</LinearLayout>

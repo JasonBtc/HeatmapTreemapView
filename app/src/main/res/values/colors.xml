@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ph_bg">#FFFFFFFF</color>
+    <color name="ph_toolbar_bg">#FFFFFFFF</color>
+    <color name="ph_text_primary">#FF1E2329</color>
+    <color name="ph_text_secondary">#FF707A8A</color>
+    <color name="ph_dropdown_bg">#FFF5F5F5</color>
+    <color name="ph_dropdown_text">#FF1E2329</color>
+
+    <color name="ph_tile_down_strong">#FFEA5A6F</color>
+    <color name="ph_tile_down">#FFF1A4B0</color>
+    <color name="ph_tile_down_weak">#FFF6C5CD</color>
+    <color name="ph_tile_neutral">#FFCFD3D8</color>
+    <color name="ph_tile_up_weak">#FFB6E3C9</color>
+    <color name="ph_tile_up">#FF7CCBA3</color>
+    <color name="ph_tile_up_strong">#FF2EBD85</color>
+
+    <color name="ph_tile_text">#FFFFFFFF</color>
+    <color name="ph_tile_stroke">#10000000</color>
+
+    <color name="ph_up_text">#FF1FAE69</color>
+    <color name="ph_down_text">#FFE6526B</color>
+
+    <color name="ph_option_border">#FFEAECEF</color>
+    <color name="ph_option_border_selected">#FF1E2329</color>
+</resources>

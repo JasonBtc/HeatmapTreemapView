@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="规模依据"
+        android:textColor="@color/ph_text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/scale_opt_volume"
+            style="@style/PhScopeOption"
+            android:layout_marginEnd="6dp"
+            android:text="交易量" />
+
+        <TextView
+            android:id="@+id/scale_opt_change"
+            style="@style/PhScopeOption"
+            android:layout_marginStart="6dp"
+            android:text="24h 涨跌" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/scale_opt_mcap"
+            style="@style/PhScopeOption"
+            android:layout_marginEnd="6dp"
+            android:text="市值" />
+
+        <TextView
+            android:id="@+id/scale_opt_turnover"
+            style="@style/PhScopeOption"
+            android:layout_marginStart="6dp"
+            android:text="成交量/市值" />
+    </LinearLayout>
+</LinearLayout>

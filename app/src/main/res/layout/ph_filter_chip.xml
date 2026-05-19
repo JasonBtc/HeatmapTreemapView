@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/ph_dropdown_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="6dp"
+    android:minWidth="84dp">
+
+    <TextView
+        android:id="@+id/chip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:maxWidth="76dp"
+        android:textColor="@color/ph_dropdown_text"
+        android:textSize="13sp"
+        tools:text="U本位" />
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ph_ic_arrow_drop_down"
+        android:contentDescription="@null" />
+</LinearLayout>
